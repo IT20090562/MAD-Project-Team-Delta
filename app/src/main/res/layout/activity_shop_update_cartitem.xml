@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".shop_view_product">
+    tools:context=".shop_update_cartitem">
 
-    <!--Top menue bar begis-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginTop="0dp"
         android:background="@color/TopMenueBackgroud"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/app_logo_top"
@@ -31,11 +32,6 @@
             android:textSize="50sp" />
 
     </LinearLayout>
-    <!--Top menue bar ends-->
-
-    <!--body start-->
-
-    <!--Bottom navigation bar begins-->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -57,56 +53,61 @@
             app:srcCompat="@drawable/dogchewtoy" />
 
         <TextView
-            android:id="@+id/product_name"
+            android:id="@+id/viewItem_name"
             android:layout_width="159dp"
             android:layout_height="40dp"
             android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="5dp"
             android:text="@string/product_name"
             android:textColor="#0B0B0B"
             android:textSize="18sp"
             app:layout_constraintStart_toEndOf="@+id/viewItem_iamge"
-            app:layout_constraintTop_toBottomOf="@+id/productView1" />
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
         <TextView
-            android:id="@+id/productView3"
+            android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="19dp"
             android:text="@string/productView3"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/viewItem_iamge"
-            app:layout_constraintTop_toBottomOf="@+id/productView2" />
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
         <TextView
-            android:id="@+id/product_price"
+            android:id="@+id/viewItem_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
             android:text="@string/product_price"
             android:textColor="#000000"
             android:textSize="18sp"
-            app:layout_constraintBaseline_toBaselineOf="@+id/productView3"
-            app:layout_constraintStart_toEndOf="@+id/productView3" />
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView15"
+            app:layout_constraintStart_toEndOf="@+id/textView15" />
 
         <TextView
-            android:id="@+id/product_qty"
+            android:id="@+id/viewItem_qty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
             android:text="@string/product_qty"
             android:textColor="#000000"
             android:textSize="18sp"
-            app:layout_constraintBaseline_toBaselineOf="@+id/productView2"
-            app:layout_constraintStart_toEndOf="@+id/productView2" />
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView13"
+            app:layout_constraintStart_toEndOf="@+id/textView13" />
 
         <TextView
-            android:id="@+id/productView1"
+            android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
             android:layout_marginTop="76dp"
             android:text="@string/productView1"
             android:textSize="18sp"
@@ -115,34 +116,36 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/productView2"
+            android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
             android:layout_marginTop="32dp"
             android:text="@string/productView2"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/viewItem_iamge"
-            app:layout_constraintTop_toBottomOf="@+id/product_name" />
+            app:layout_constraintTop_toBottomOf="@+id/viewItem_name" />
 
         <TextView
-            android:id="@+id/product_description"
+            android:id="@+id/viewItem_description"
             android:layout_width="365dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
             android:layout_marginTop="1dp"
             android:text="@string/product_description"
-            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/productView4" />
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
         <TextView
-            android:id="@+id/productView4"
+            android:id="@+id/textView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
             android:layout_marginTop="56dp"
             android:text="@string/productView4"
             android:textSize="18sp"
@@ -150,66 +153,50 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/viewItem_iamge" />
 
-
         <TextView
-            android:id="@+id/productView5"
+            android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="24dp"
             android:text="@string/productView5"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/product_description" />
+            app:layout_constraintTop_toBottomOf="@+id/viewItem_description" />
 
         <EditText
-            android:id="@+id/product_inputqty"
+            android:id="@+id/updateCart_inputqty"
             android:layout_width="114dp"
             android:layout_height="39dp"
-            android:layout_marginStart="44dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
             android:background="@color/OrderviewBtn"
             android:ems="10"
-            android:gravity="center_horizontal"
             android:inputType="number"
-            android:text="@string/product_inputqty"
             android:textAlignment="center"
-            android:textStyle="bold"
-            app:layout_constraintBaseline_toBaselineOf="@+id/productView5"
-            app:layout_constraintStart_toEndOf="@+id/productView5" />
+            android:text="01"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView19"
+            app:layout_constraintStart_toEndOf="@+id/textView19"
+            android:gravity="center_horizontal" />
+
 
         <Button
-            android:id="@+id/btn_addtocart"
+            android:id="@+id/button_updateCartQty"
             android:layout_width="179dp"
             android:layout_height="50dp"
-            android:layout_marginTop="40dp"
-            android:background="@drawable/button_login_fill"
-            android:text="@string/btn_addtocart"
+            android:layout_marginTop="16dp"
+            android:background="@color/design_default_color_secondary_variant"
+            android:text="Update Quantity"
             android:textColor="@color/design_default_color_background"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.512"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/product_inputqty" />
+            app:layout_constraintTop_toBottomOf="@+id/updateCart_inputqty" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="57dp"
-        android:layout_height="46dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="171dp"
-        android:layout_marginBottom="15dp"
-        app:srcCompat="@drawable/hom" />
-
-
-    <!--body end-->
-
-
 
 </RelativeLayout>

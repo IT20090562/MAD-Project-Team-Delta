@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".admin_orders">
+    tools:context=".shop_viewOrderitems">
 
-    <!--Top menue bar begis-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginTop="0dp"
         android:background="@color/TopMenueBackgroud"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/app_logo_top"
@@ -26,14 +27,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
             android:fontFamily="serif"
-            android:text="@string/admin_view"
+            android:text="@string/profile_view"
             android:textColor="@color/Theme"
             android:textSize="50sp" />
 
     </LinearLayout>
-    <!--Top menue bar ends-->
-
-    <!--body start-->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -46,7 +44,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:fontFamily="cursive"
             android:text="Order Details"
@@ -58,7 +55,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/showAdminOrdersView"
+            android:id="@+id/showOrderedItemsView"
             android:layout_width="match_parent"
             android:layout_marginTop="100dp"
             android:layout_height="match_parent"
@@ -71,13 +68,5 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-    <!--body end-->
-
-    <!--Bottom navigation bar begins-->
-
-
-
-
-    <!--Bottom navigation bar Ends-->
 
 </RelativeLayout>

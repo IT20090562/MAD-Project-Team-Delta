@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".admin_orders">
+    tools:context=".admin_ordersViewItems">
 
-    <!--Top menue bar begis-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
@@ -31,9 +30,6 @@
             android:textSize="50sp" />
 
     </LinearLayout>
-    <!--Top menue bar ends-->
-
-    <!--body start-->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -49,7 +45,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:fontFamily="cursive"
-            android:text="Order Details"
+            android:text="Ordered Items"
             android:textSize="56sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -58,7 +54,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/showAdminOrdersView"
+            android:id="@+id/showAdminOrderViewItems"
             android:layout_width="match_parent"
             android:layout_marginTop="100dp"
             android:layout_height="match_parent"
@@ -71,13 +67,5 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-    <!--body end-->
-
-    <!--Bottom navigation bar begins-->
-
-
-
-
-    <!--Bottom navigation bar Ends-->
 
 </RelativeLayout>
