@@ -34,11 +34,11 @@
     <string name="cart_price">1600.00</string>
     <string name="bill_view">BILL</string>
     <string name="total_price">Total Price</string>
-    <string name="bill_details">1 Dog Chew Toy</string>
+    <string name="bill_details">ORDER DETAILS</string>
     <string name="order_cusName">Enter your name</string>
     <string name="order_address">Enter your address</string>
     <string name="orders_phone">Enter your phone no</string>
-    <string name="order_email">Enter your email</string>
+    <string name="order_postal">Enter your postal code</string>
     <string name="confirm_order">CONFIRM AND BUY</string>
     <string name="show_ordDetails">1 Dog Chew Toy</string>
     <string name="show_ordPrice">Rs.1600.00</string>
@@ -57,4 +57,6 @@
     <string name="cus_phone">Phone Number</string>
     <string name="pro_update_btn">UPDATE</string>
     <string name="pro_logout_btn">LOG OUT</string>
+    <string name="profile_view">PROFILE</string>
+    <string name="admin_view">Admin</string>
 </resources>

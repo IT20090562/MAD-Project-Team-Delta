@@ -47,7 +47,7 @@
         android:layout_marginRight="30dp"
         android:background="@drawable/login_btn_layout_only"
         android:ems="10"
-        android:hint="@string/login_Username"
+        android:hint="@string/email"
         android:inputType="textPersonName"
         android:padding="15dp"
         android:textSize="22sp"
