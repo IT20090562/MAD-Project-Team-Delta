@@ -42,4 +42,5 @@ dependencies {
     implementation 'org.jetbrains:annotations:16.0.2'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.firebaseui:firebase-ui-database:3.2.2'
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
 }

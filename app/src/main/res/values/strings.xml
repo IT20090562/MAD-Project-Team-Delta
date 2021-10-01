@@ -59,4 +59,16 @@
     <string name="pro_logout_btn">LOG OUT</string>
     <string name="profile_view">PROFILE</string>
     <string name="admin_view">Admin</string>
+    <string name="admin_add_item_btntxt">Add</string>
+    <string name="adminBtnAddItem">Add item</string>
+    <string name="admin_delete_item_btntxt">Delete</string>
+    <string name="admin_update_item_btntxt">Update</string>
+    <string name="etproductname">Enter Product Name</string>
+    <string name="etinputProductqty">Enter Quantity</string>
+    <string name="etinputdescript">Enter Description</string>
+    <string name="etinputUP">Enter unit price</string>
+    <string name="admin_menu_admiprof">Admin Profile</string>
+    <string name="admin_menu_itembtn">Item Management</string>
+    <string name="admin_menu_orders">Customer Orders</string>
+    <string name="admin_menu_care">Care Organizations</string>
 </resources>
