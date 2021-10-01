@@ -59,4 +59,35 @@
     <string name="pro_logout_btn">LOG OUT</string>
     <string name="profile_view">PROFILE</string>
     <string name="admin_view">Admin</string>
+    <string name="corner_view">Corner</string>
+    <string name="corner_viewAd_dogtype">Labrador Puppies</string>
+    <string name="corner_viewAd_price">Rs. 40 000/=</string>
+    <string name="corner_viewAd_description">Description:</string>
+    <string name="corner_viewAd_back">Back</string>
+    <string name="corner_showAds_location">Location</string>
+    <string name="corner_showAd_viewButton">View</string>
+    <string name="corner_showAd_description">Labrador Puppies</string>
+    <string name="corner_showAd_details">Golden, 28 days, Healthy</string>
+    <string name="corner_showAd_price">Rs. 40 000/=</string>
+    <string name="corner_myAds_headerText">My Advertisments</string>
+    <string name="corner_view_post_phone">Contact No :</string>
+    <string name="corner_view_post_Number">071-2546324</string>
+    <string name="corner_view_post_email">Email :</string>
+    <string name="corner_view_post_mail">saman@gmail.com</string>
+    <string name="corner_view_post_edit">Edit</string>
+    <string name="corner_edit_post_breed">Dog Breed/Type</string>
+    <string name="corner_edit_post_price">Price :</string>
+    <string name="corner_edit_post_description">Description :</string>
+    <string name="corner_edit_post_contact">Contact No :</string>
+    <string name="corner_edit_post_email">Email :</string>
+    <string name="corner_edit_post_changebut">Change Photo</string>
+    <string name="corner_edit_post_savebut">Save</string>
+    <string name="corner_view_post_delete">Remove</string>
+    <string name="corner_edit_post_cancel">Cancel</string>
+    <string name="corner_add_post_addPhoto">Add Photo</string>
+    <string name="corner_add_post_postbut">Post</string>
+    <string name="corner_add_post_cancelbut">Cancel</string>
+    <string name="profile_menue_ads">My Advertisements</string>
+    <string name="profile_menue_editprof">Edit Profile</string>
+    <string name="profile_menue_orders">My Orders</string>
 </resources>
