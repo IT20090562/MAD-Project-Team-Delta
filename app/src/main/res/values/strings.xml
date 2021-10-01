@@ -59,4 +59,89 @@
     <string name="pro_logout_btn">LOG OUT</string>
     <string name="profile_view">PROFILE</string>
     <string name="admin_view">Admin</string>
+    <string name="admin_menu_admiprof">Admin Profile</string>
+    <string name="admin_menu_itembtn">Item Management</string>
+    <string name="admin_menu_orders">Customer Orders</string>
+    <string name="admin_menu_care">Care Organizations</string>
+    <string name="profile_menue_ads">My Advertisements</string>
+    <string name="profile_menue_editprof">Edit Profile</string>
+    <string name="profile_menue_orders">My Orders</string>
+    <string name="etproductname">Enter Product Name</string>
+    <string name="etinputProductqty">Enter Quantity</string>
+    <string name="etinputdescript">Enter Description</string>
+    <string name="etinputUP">Enter unit price</string>
+    <string name="admin_add_item_btntxt">Add</string>
+    <string name="admin_delete_item_btntxt">Delete</string>
+    <string name="admin_update_item_btntxt">Update</string>
+    <string name="adminBtnAddItem">Add item</string>
+
+    <string name="corner_viewAd_dogtype">Labrador Puppies</string>
+    <string name="corner_viewAd_price">Rs. 40 000/=</string>
+    <string name="corner_viewAd_description">Description:</string>
+    <string name="corner_viewAd_back">Back</string>
+    <string name="corner_showAds_location">Location</string>
+    <string name="corner_showAd_viewButton">View</string>
+    <string name="corner_showAd_description">Labrador Puppies</string>
+    <string name="corner_showAd_details">Golden, 28 days, Healthy</string>
+    <string name="corner_showAd_price">Rs. 40 000/=</string>
+    <string name="corner_myAds_headerText">My Advertisments</string>
+    <string name="corner_view_post_phone">Contact No :</string>
+    <string name="corner_view_post_Number">071-2546324</string>
+    <string name="corner_view_post_email">Email :</string>
+    <string name="corner_view_post_mail">saman@gmail.com</string>
+    <string name="corner_view_post_edit">Edit</string>
+    <string name="corner_edit_post_breed">Dog Breed/Type</string>
+    <string name="corner_edit_post_price">Price :</string>
+    <string name="corner_edit_post_description">Description :</string>
+    <string name="corner_edit_post_contact">Contact No :</string>
+    <string name="corner_edit_post_email">Email :</string>
+    <string name="corner_edit_post_changebut">Change Photo</string>
+    <string name="corner_edit_post_savebut">Save</string>
+    <string name="corner_view_post_delete">Remove</string>
+    <string name="corner_edit_post_cancel">Cancel</string>
+    <string name="corner_add_post_addPhoto">Add Photo</string>
+    <string name="corner_add_post_postbut">Post</string>
+    <string name="corner_add_post_cancelbut">Cancel</string>
+
+    <string name="care_findclinic_headertxt">Find Nearest Clinic</string>
+    <string name="care_findclinic_searchtxt">Search Location</string>
+    <string name="care_findclinic_clinic_name">Sample Organization</string>
+    <string name="care_findclinic_clinic_des">Description</string>
+    <string name="care_findclinic_clinic_viewButton">View</string>
+    <string name="care_findclinic_clinic_loc">Location</string>
+    <string name="care_viewAd_desDetails">Golden white, 28 days, Healthy</string>
+
+    <string name="care_clinicdetails_headtxt">CLINIC DETAILS</string>
+    <string name="care_clinicdetails_name">Clinic Name: VCare Veterinarian Center</string>
+    <string name="care_clinicdetails_contactnum">Contact Number: +94112345678</string>
+    <string name="care_clinicdetails_address">Address/Location: No:123, Colombo</string>
+    <string name="care_clinicdetails_city">City: Colombo</string>
+    <string name="care_clinicdetails_description">Description: sometimes our pets need more than just our love.</string>
+    <string name="care_clinicdetails_owner">Owner Name:Sahan Perera</string>
+
+    <string name="admin_organization_headtxt">Organization</string>
+    <string name="admin_org_contact">Contact Number: +941123456</string>
+    <string name="admin_org_location">Location: No:123, Colombo, Sri Lanka</string>
+    <string name="admin_org_selectbutton">Select</string>
+    <string name="admin_org_headertxt">Organization Details</string>
+    <string name="admin_org_name">Clinic Name</string>
+    <string name="admin_orgdetails_contact">Contact Number</string>
+    <string name="admin_orgdetails_location">Address/Location</string>
+    <string name="admin_orgdetails_city">City</string>
+    <string name="admin_orgdetails_description">Description</string>
+    <string name="admin_orgdetails_owner">Owner Name</string>
+    <string name="admin_org_delete">Delete</string>
+    <string name="admin_org_update">Update</string>
+    <string name="admin_orgadd_headertxt">Add organization Details</string>
+    <string name="admin_orgadd_name">Clinic Name</string>
+    <string name="admin_orgadd_number">Contact Number</string>
+    <string name="admin_orgadd_address">Address/Organization</string>
+    <string name="admin_orgadd_city">City</string>
+    <string name="admin_orgadd_description">Description</string>
+    <string name="admin_orgadd_owner">Owner Name</string>
+    <string name="admin_orgadd_add">Add Clinic</string>
+    <string name="admin_org_addbutton">Add New Org</string>
+    <string name="care_view">Care</string>
+    <string name="corner_view">Corner</string>
+
 </resources>

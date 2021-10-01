@@ -14,5 +14,8 @@
     <color name="TopMenueBackgroud">#F1F0F2</color>
     <color name="OrderviewBtn">#F9D4FF</color>
     <color name="colorlistbackBlue">#DAEDFB</color>
+    <color name="colorCommonButton">#A3D4FB</color>
+    <color name="colorTopMenueBackgroud">#F1F0F2</color>
+    <color name="colorBottomNavBar">#D1D0D1</color>
 
 </resources>

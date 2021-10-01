@@ -34,5 +34,31 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnshop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Home.this,shop_show_products.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btncorner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Home.this,corner_show_ads.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btncare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Home.this,care_show_clinics.class);
+                startActivity(intent);
+            }
+        });
     }
 }

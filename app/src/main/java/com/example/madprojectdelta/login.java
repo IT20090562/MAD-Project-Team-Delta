@@ -172,7 +172,7 @@ public class login extends AppCompatActivity {
 
     public void navigateToActivityAdmin()
     {
-        Intent intent = new Intent(login.this, AdminMenu.class);
+        Intent intent = new Intent(login.this, admin_menu.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }

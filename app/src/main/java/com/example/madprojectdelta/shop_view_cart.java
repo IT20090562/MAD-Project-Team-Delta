@@ -194,7 +194,7 @@ public class shop_view_cart extends AppCompatActivity {
                 {
 //                    calculatebill.setVisibility(View.INVISIBLE);
                         title.setText("Add items to cart.🐶🛒");
-                        calculatebill.setText("Bask To WoofShop");
+                        calculatebill.setText("Back To Shop");
                         calculatebill.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
