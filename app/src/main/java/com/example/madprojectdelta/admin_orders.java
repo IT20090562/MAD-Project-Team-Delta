@@ -42,7 +42,7 @@ public class admin_orders extends AppCompatActivity {
         logo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(admin_orders.this, AdminMenu.class);
+                Intent intent = new Intent(admin_orders.this, admin_menu.class);
                 startActivity(intent);
             }
         });

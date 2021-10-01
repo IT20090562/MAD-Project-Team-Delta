@@ -38,7 +38,7 @@ public class admin_ordersViewItems extends AppCompatActivity {
         logo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(admin_ordersViewItems.this, AdminMenu.class);
+                Intent intent = new Intent(admin_ordersViewItems.this, admin_menu.class);
                 startActivity(intent);
             }
         });
