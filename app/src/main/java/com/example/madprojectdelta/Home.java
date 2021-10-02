@@ -30,7 +30,7 @@ public class Home extends AppCompatActivity {
         btnprofile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,Cus_viewProfile.class);
+                Intent intent = new Intent(Home.this,profile_menu.class);
                 startActivity(intent);
             }
         });
